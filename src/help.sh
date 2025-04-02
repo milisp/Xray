@@ -72,7 +72,7 @@ show_help() {
         done
         msg "Use del, ddel with caution, these options will delete configurations directly; no confirmation required"
         msg "Report issues) $(msg_ul https://github.com/${is_sh_repo}/issues) "
-        msg "Documentation(doc) $(msg_ul https://233boy.com/$is_core/$is_core-script/)"
+        msg "Documentation(doc) $(msg_ul https://milisp.com/$is_core/$is_core-script/)"
         ;;
     esac
 }
@@ -81,11 +81,11 @@ about() {
     ####### Important: Do not only change my links #######
     unset c n m s b
     msg
-    msg "Website: $(msg_ul https://233boy.com)"
+    msg "Website: $(msg_ul https://milisp.com)"
     msg "Channel: $(msg_ul https://t.me/tg2333)"
-    msg "Group: $(msg_ul https://t.me/tg233boy)"
+    msg "Group: $(msg_ul https://t.me/tgmilisp)"
     msg "Github: $(msg_ul https://github.com/${is_sh_repo})"
-    msg "Twitter: $(msg_ul https://twitter.com/ai233boy)"
+    msg "Twitter: $(msg_ul https://twitter.com/aimilisp)"
     msg "$is_core_name site: $(msg_ul https://xtls.github.io)"
     msg "$is_core_name core: $(msg_ul https://github.com/${is_core_repo})"
     msg
